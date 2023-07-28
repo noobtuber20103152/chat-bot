@@ -30,7 +30,8 @@ function Feedback() {
   };
   return (
     <>
-      <section class="bg-white dark:bg-gray-900">
+     <div className="bg-blue-200">
+     <section class="bg-blue-200 h-screen dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Give your valueable feedback
@@ -63,6 +64,7 @@ function Feedback() {
           </div>
         </div>
       </section>
+     </div>
     </>
   );
 }
