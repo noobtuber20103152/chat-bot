@@ -50,7 +50,7 @@ function ChatScreen(props) {
       });
     setuserQuery("");
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: "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",
     });
 
     const openai = new OpenAIApi(configuration);
